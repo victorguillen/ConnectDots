@@ -21,7 +21,7 @@ This project will include:
 
 This game will consist of a single screen with a gif popup explaining how the game works. The screen will then transition to the game with a Play button in the center. When the user connects the dots the score will appear on the screen along with a Play Again button and a mute button on the top right corner.
 
-![wireframes](/docs/wireframes/dots.png)
+![wireframes](docs/wireframes/dots.png)
 
 ### Architecture and Technologies
 
