@@ -4,7 +4,8 @@
 
 Gameplay of Dots: users connect lines of dots to eliminate all dots in that line, or close a line to remove all dots of that color from the screen. The purpose of the game is to get the highest score possible of connected dots, after dots are connected they disappear and new dots fall from the top to replace the missing dots.
 
-![wireframes](docs/images/dotsClassic.gif = 300x500)
+![wireframes](docs/images/dotsClassic.gif)
+<img src="docs/images/dotsClassic.gif" width="300">
 
 There's a score count of how may dots have been connected and a timer counting down to zero. When the timer hits zero the game is over and a play again button appears on screen to play a new game.
 
