@@ -2,20 +2,27 @@
 
 ### Background
 
-Connect Dots is a grid-like game in which the objective is to connect as many adjacent dots possible. Once the dots have been connected a new group of dots fill the empty spaces from top down.
-Connecting the dots is possible through the user's mouse, the player looses when there are no more dots to connect.
+Gameplay of Dots: users connect lines of dots to eliminate all dots in that line, or close a line to remove all dots of that color from the screen. The purpose of the game is to get the highest score possible of connected dots, after dots are connected they disappear and new dots fall from the top to replace the missing dots.
 
+![wireframes](docs/images/dotsClassic.gif)
+
+There's a score count of how may dots have been connected and a timer counting down to zero. When the timer hits zero the game is over and a play again button appears on screen to play a new game.
+
+The game includes background music which can be muted by clicking on the speaker icon.
 
 ### Functionality & MVP  
 
-With this app, users will be able to:
+User will be able to:
 
-- [ ] Connect dots with mouse movement
+- [ ] Start, pause, restart and mute the background music.
+- [ ] A timer and a score count on top
+- [ ] Use of mouse to connect the dots
+- [ ]
 
 This project will include:
 
 - [ ] A production Readme
-- [ ] A Gif describing the rules of the game. (game play)
+- [ ] An intro showing how to play the game. Include a modal with instructions and a gif.
 
 ### Wireframes
 
@@ -33,10 +40,10 @@ This project will be implemented with the following technologies:
 
 ### Implementation Timeline
 
-**Day 1**: Create the graphics and Background.
+**Day 1**: Setup all modules, learn the basics of Stage.js. Learn enough Easel.js to render an object to the Canvas element
 
-**Day 2**: Animate scene. Start developing the logic.
+**Day 2**: Dedicate this day to learning the Stage.js Goals: Render dots and background.
 
-**Day 3**: Add responsiveness to mouse movement. Test.
+**Day 3**: Create the game logic: gameplay, timer, score count.
 
-**Day 4**: Continue testing and debugging. Create a gif with instructions.
+**Day 4**: Install the controls for the user to interact with the game. Style the frontend, making it polished and professional.
