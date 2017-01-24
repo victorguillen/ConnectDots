@@ -4,7 +4,7 @@
 
 Gameplay of Dots: users connect lines of dots to eliminate all dots in that line, or close a line to remove all dots of that color from the screen. The purpose of the game is to get the highest score possible of connected dots, after dots are connected they disappear and new dots fall from the top to replace the missing dots.
 
-![wireframes](docs/images/dotsClassic.gif)
+![wireframes](docs/images/dotsClassic.gif = 300x500)
 
 There's a score count of how may dots have been connected and a timer counting down to zero. When the timer hits zero the game is over and a play again button appears on screen to play a new game.
 
@@ -14,10 +14,10 @@ The game includes background music which can be muted by clicking on the speaker
 
 User will be able to:
 
+- [ ] Read the instructions through a modal popup.
 - [ ] Start, pause, restart and mute the background music.
-- [ ] A timer and a score count on top
-- [ ] Use of mouse to connect the dots
-- [ ]
+- [ ] Use of mouse to connect the dots.
+
 
 This project will include:
 
@@ -28,7 +28,7 @@ This project will include:
 
 This game will consist of a single screen with a gif popup explaining how the game works. The screen will then transition to the game with a Play button in the center. When the user connects the dots the score will appear on the screen along with a Play Again button and a mute button on the top right corner.
 
-![wireframes](docs/wireframes/dots.png)
+![wireframes](docs/wireframes/dots.png  = 400x400)
 
 ### Architecture and Technologies
 
